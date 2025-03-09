@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course home page for WDD231">
+    <meta name="author" content="Arturo Silfa">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/profile.jpg" alt="Arturo Silfa">
+        <h1>Arturo Silfa</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="https://github.com/Arturosilfa/wdd231-">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/fausto-silfa-7045b029b/">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="container">
+            <section class="box">
+                <h2>Course Work</h2>
+                <ul>
+                    <li>Project 1</li>
+                    <li>Project 2</li>
+                    <li>Project 3</li>
+                </ul>
+            </section>
+
+            <section class="box">
+                <h2>Santo Domingo, Dominican Republic</h2>
+                <img src="images/colonial.jpg" alt="Colonial Zone">
+                <p>Colonial Zone</p>
+            </section>
+        </div>
+
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div class="course-container">
+                <div class="course">CSE 110</div>
+                <div class="course">WDD 130</div>
+                <div class="course">CSE 111</div>
+                <div class="course">CSE 210</div>
+                <div class="course">WDD 131</div>
+                <div class="course">WDD 231</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Arturo Silfa | República Dominicana</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
